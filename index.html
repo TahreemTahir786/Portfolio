@@ -7,6 +7,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+        }
+        .hero h1, .hero p {
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                height: 60vh;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -61,8 +75,8 @@
     <!-- Reviews Section -->
     <section id="reviews" class="container py-5">
         <h2>Client Reviews</h2>
-        <blockquote>“Amazing work! Highly professional.” - Client A</blockquote>
-        <blockquote>“Delivered on time with great quality.” - Client B</blockquote>
+        <blockquote class="blockquote">“Amazing work! Highly professional.” - Client A</blockquote>
+        <blockquote class="blockquote">“Delivered on time with great quality.” - Client B</blockquote>
     </section>
     
     <!-- Contact Section -->
