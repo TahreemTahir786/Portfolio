@@ -1,1 +1,3 @@
-theme: minima
+title: "Tahreem Tahir Portfolio"
+description: "Showcasing my work in web development, graphic design, and data analytics."
+theme: minima  # You can replace this with a different Jekyll theme
